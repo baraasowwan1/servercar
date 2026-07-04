@@ -1,6 +1,7 @@
 {
   "name": "highway-rentacar-server",
   "version": "1.0.0",
+      "type": "module",
   "main": "dist/index.js",
   "scripts": {
     "build": "./node_modules/.bin/tsc",
@@ -12,7 +13,6 @@
     "express": "^4.18.2",
     "jsonwebtoken": "^9.0.2",
     "uuid": "^9.0.0",
-    "type": "module",
     "typescript": "^5.4.5",
     "@types/bcryptjs": "^2.4.6",
     "@types/cors": "^2.8.17",
